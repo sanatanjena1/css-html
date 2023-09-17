@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border In CSS Tags</title>
+    <style>
+        .main-parent{
+            width: 300px;
+            height: 200px;
+            /* border: 5px solid red; */
+            /* border: 5px dashed red; */
+            /* border: 5px dotted red; */
+            border: 5px solid black;
+            border-bottom: 5px solid blue;
+            border-top: 5px solid cyan;
+            border-left: 5px dotted red;
+            border-right: 5px dashed green;
+
+            /* text-align: center; */
+        }
+        .childe{
+            width: 290px;
+            height: 190px;
+            border: 5px solid yellow;
+        }
+        /* #submit{
+            background-color: yellow;
+            color: powderblue;
+        } */
+        #submit:hover{
+            background-color: blue;
+            color: red;
+            font-family: verdana;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="GET">
+    <div class="main-parent">
+        <div class="childe">Sanatan Jena
+            <div style="text-align: center; color: blue;">Log in</div><br>
+            <div class="childe1"><label for="">User Name:*</label>
+                <input type="text" name="" id="" size="auto"/>
+            <br><br>
+            <label for="">Password:*</label>
+            <input type="text" name="" id="" size="auto"/>
+            <br><br>
+            <label for="">Date:</label>
+            <input type="date" name="date" id=""/>
+            <br>
+            <input type="submit" name="submit" value="submit"id="submit" style="margin-inline-start: 200px;"/>
+
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

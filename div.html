@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div tag</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            background-color:red;
+        }
+        #parent-row-1{
+            width: 500px;
+            height: 250px;
+            background-color: red;
+        }
+        #parent-row-2{
+            width: 500px;
+            height: 250px;
+            background-color:cyan;
+        }
+        .col1{
+            width: 250px;
+            height: 250px;
+            background-color: lime;
+            float: left;
+        }
+        .col2{
+            width: 250px;
+            height: 250px;
+            background-color: yellow;
+            float: left;
+        }
+        .col3{
+            width: 250px;
+            height: 250px;
+            float: left;
+        }
+        .col4{
+            width: 250px;
+            height: 250px;
+            background-color:chartreuse;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"> <!-- Main div-->
+        <div id="parent-row-1">          <!-- Parent row1-->
+            <div class="col1">Good</div>   <!-- col 1-->
+            <div class="col2">Morning</div>  <!-- col 2-->
+        </div>
+        <hr>
+        <div id="parent-row-2">           <!-- Parent row2-->
+            <div class="col3">Good</div>  <!-- col 1-->
+            <div class="col4">Night</div>  <!-- col 2-->
+        </div>
+    </div>
+</body>
+</html>

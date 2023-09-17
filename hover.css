@@ -1,0 +1,14 @@
+.main{
+    background-color: blue;
+    color:aqua;
+    width: 100px;
+    height: 30px;
+    text-align: center; 
+    padding-bottom: 5px;
+}
+.main:hover{
+    background-color: palevioletred;
+    color:yellow;
+    width: 80px;
+    height: 50px;
+}

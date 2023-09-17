@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacial And White Space</title>
+    <style>
+        .parent{
+            width: 400px;
+            height:400px;
+            background-color: red;
+            color:white;
+            /* rotate: 40deg; */
+            position: absolute;
+            left: 40px;
+            text-align: center;
+            margin-left: 40%;
+            margin-top: 25px;
+            border: 5px yellow dashed;
+            /*time set effect*/
+            transition: all 2s ease-in;
+            
+        }
+    .parent:hover{
+        background-color:green;
+        color: yellowgreen;
+        box-shadow: 0px 0px 10px 20px blue;
+        /* margin: auto;
+        text-align: left; */
+        text-transform: lowercase;
+        /* margin-top: 25px; */
+        /* transform: rotate(90deg); Rotate Deg Set */
+        transform: translateY(200px);
+        transform: translate(100px,80px);
+
+    }
+
+    /* #border1{
+        width: 450px;
+        height: 500px;
+        border: 5px dotted green;
+        margin-top: 40px;
+    }
+    #border2{
+        width: 450px;
+        height: 450px;
+        border: 5px solid black;
+        margin-left: 122%;
+        margin-top: 20px;
+        
+    } */
+    </style>
+</head>
+<body>
+    <div id="border1">
+    <div id="border2">
+    <div class="parent">
+    <h1 style="color: blue; text-transform: uppercase;">Spacial Character And White Space In HTML</h1>
+    <nav style="border: 5px solid greenyellow; width: 200px; text-align: center;margin: auto;">Home | About | Menu</nav>
+    <br>
+    <div>Copy Right Symbol <mark>&copy;</mark></div>
+    <div>Trade mark <mark>&trade;</mark></div>
+    <div>Registered Trade Mark <mark>&reg;</mark></div>
+    <div>Hello<mark>&nbsp;</mark>Everyone</div>
+    <div>Hello<mark>&ensp;</mark>Everyone</div>
+    <div>Hello<mark>&emsp;</mark>Everyone</div>
+    <div>Indian Currency Symbol&emsp;<mark>&#8377;</mark> 9000/</div>
+    <div>Dollar Sign <mark>&#36;</mark> 57</div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
